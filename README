@@ -1,0 +1,26 @@
+Files included
+1. sorting.c //contains the main file
+2. minsort.c //contains minsort algorithm. Use ./sorting -m
+3. minsort.h //contains the header file for minsort
+4. bubblesort.c //contains the bubblesort algorithm. Use ./sorting -b
+5. bubblesort.h //contains the header file for bubblesort.
+6. insertionsort.c //contains insertionsort algorithm. Use ./sorting -i
+7. insertionsort.h //contains the header file for insertionsort.
+8. quicksort.c //contains quicksort algorithm. Use ./sorting -q
+9. quicksort.h //contains the header file for quicksort.
+10. mergesort.c //contains the mergesort algorithm. ./sorting -M
+11. mergesort.h //contains the header file for mergesort.
+12. bv.h //contains the bit vector components
+13. README //This file
+14. Makefile //contains the make file for this program
+
+This is a program that demonstrates all the sorting algorithm. 
+
+To compile all the algorithm, type "make". To run the
+program type "./sorting -A". This should show the name of the sort being used, then the number of elements, the number
+ of moves and the number of compares.
+
+ To enable special
+ -p to print that specified number of elements. By default it prints hundred elements.
+ -r to set the seed to something specific. By default it is 8062022
+ -n to set the number of elements you want to sort.
